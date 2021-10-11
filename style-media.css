@@ -1,0 +1,55 @@
+@media (max-width: 1250px) {
+    .main-pic {
+        width: 95%;
+    }
+    .container-main-information {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .contact-registration {
+        width: 95%;
+    }
+}
+@media (max-width:1193px) {
+    .registration-button-div button {
+        width: 95%;
+        
+    }
+    .right-side {
+        width: 95%;
+    }
+    .right-side input {
+        width: 95%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
+
+
+@media (max-width: 1024px) {
+    .header .container-header .nav-main-div {
+        display: none;
+    }
+    .header .container-header .icon {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .container-main-information .info-images {
+        justify-content: space-around;
+        
+    }
+    
+    .container-main-information .info-images img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-main-div {
+        display: block;
+    }
+
+}

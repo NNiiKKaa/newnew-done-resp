@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    /* border: 1px solid black */
+}
+
+/********navigation start*****/
+
+.header {
+    background-color: blue;
+    height: 387px;
+}
+
+.header .container-header {
+    max-width: 1475px;
+    width: 100%;
+    padding-top: 27px;
+    margin: 0 auto 270px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    cursor: pointer;
+}
+.container-header .nav-main-div {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.container-header .nav-main-div .nav-ul {
+    /* border: 1px solid white; */
+    display: flex;
+    max-width: 793px;
+    margin-left: auto;
+
+}
+.container-header .nav-main-div .nav-ul .nav-li {
+    margin-left: auto;
+}
+
+.container-header .nav-main-div .nav-ul .nav-li {
+    font-family: helv-regular;
+}
+
+.container-header .nav-main-div .nav-ul .contact {
+    padding: 18px 43px 18px 36px;
+    background-color: #fff;
+    border-radius: 28px;
+    color: #171717;
+    font-size: 16px;
+    font-family: helv-bold;
+}
+
+
+
+.slide-container  {
+    max-width: 1475px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 180px;
+    
+}
+
+.slide-container img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.slide-container .mainc-slider-image {
+    margin-top: -55px;
+    max-width: 1195px;
+    width: 100%;
+}
+
+.container-main-information {
+    max-width: 1195px;
+    width: 100%;
+    margin: -173px auto 0 auto;
+    padding: 0 20px;
+}
+
+.container-main-information .main-pic {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.container-main-information h2 {
+    color: #171717;
+    font-size: 28px;
+    padding: 60px 0 30px 0;
+    
+}
+
+.container-main-information .info-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-main-information .info-images img {
+    max-width: 219px;
+}
+
+.text-div {
+    margin-top: 60px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 18px;
+
+}
+
+.text-div p {
+    color: #171717;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: helv-regular;
+}
+
+.button-div {
+    padding-top: 58px;
+    padding-bottom: 180px;
+    text-align: center;
+}
+
+.button-div .button {
+    padding: 18px 77px 18px 57px;
+    border-radius: 28px;
+    background-color: #0A22F4;
+    color: #FFF;
+    font-size: 16px;
+    font-family: helv-bold;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.footer-main-section {
+    background-color: #0A22F4;
+    
+}
+
+.contact-registration {
+    max-width: 1475px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 275px;
+}
+
+.footer-contact-div {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.contact-title {
+    font-size: 32px;
+    font-family: helv-bold;
+    color: #fff;
+    padding-top: 275px;
+}
+
+.lorem-text-contact {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: helv-regular;
+}
+
+/* *****contact left side****** */
+
+.left-side {
+    /* border: 1px solid white; */
+    max-width: 672px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.left-side .lorem-text-contact {
+    max-width: 463px;
+    width: 100%;
+    padding-bottom: 58px;
+} 
+.left-side .map {
+    max-width: 463px;
+    max-height: 197px;
+    padding-bottom: 70px;
+    border-radius: 15px;
+}
+
+.contact-main-div img {
+    background-color: #fff;
+    padding: 22px;
+    border-radius: 50%;
+    
+
+}
+
+.contact-main-div p {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-family: helv-regular;
+}
+.phone-contact-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.contact-main-div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 672px;
+    width: 100%;
+}
+
+
+
+/* *******contact left side end****** */
+/* ***********contact right side******* */
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.right-side input {
+    margin-bottom: 40px;
+    width: 463px;
+    height: 41px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+    color: #fff;
+    
+}
+.right-side label {
+    color: #fff;
+    font-size: 16px;
+    font-family: helv-bold;
+}
+
+.right-side textarea {
+    background: none;
+    resize: none;
+    min-height: 121px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+.registration-button {
+    color: #171717;
+    font-size: 16px;
+    padding: 18px 43px 18px 36px;
+    border-radius: 28px;
+    width: 151px;
+    cursor: pointer;
+}
+.registration-button-div {
+    text-align: right;
+    margin-top: 40px;
+}
+
+/* ******footer comment start***** */
+footer {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    max-width: 1475px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 105px;
+    padding-bottom: 32px;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+footer div p {
+    font-size: 13px;
+}
+
+footer img {
+    vertical-align: middle;
+}
